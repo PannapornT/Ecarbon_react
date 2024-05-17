@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap");
+
+* {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #121138;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  .menu li {
+    list-style: none;
+    cursor: pointer;
+  }
+  .nav-con a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .display_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .fotter-color {
+    background: #121138;
+  }
+  .nav-con {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .nav-con a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .display_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    right: 0;
+    top: 0;
+  }
+@media screen and (max-width: 650px){
+  .font_hide{
+    font-size: 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .display_old {
+    display: none;
+  }
+/* navbar */
+.img_nav_logo {
+  width: 64px;
+  height: 64px;
+}
+.font_hide_2{
+  font-size: 0px;
+}
+.button_nav {
+  background: linear-gradient(to bottom right, #13DBFF, #00FF95);
+  color: #fff;
+  font-size: 13px;
+  border-radius: 20px;  
+  padding: 5px 10px;
+  box-shadow: 0px 0px 20px 0px rgba(172, 225, 223, 0.4);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+}
+.font_nav{
+  font-size: 13px;
+}
+.font_logo_nav{
+  font-size: 12px;
+}
+  /* footer mobile */
+  .font_logo_footer_mobile {
+    font-size: 15px;
+    color: #121138;
+  }
+
+  .text_clear {
+    text-decoration: none;
+    color: #121138;
+  }
+
+  .font_nav_footer {
+    font-size: 5px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .display_mobile {
+    display: none;
+  }
+      /* navbar */
+  .img_nav_logo {
+    width: 72px;
+    height: 72px;
+  }
+  .button_nav {
+    background: linear-gradient(to bottom right, #13DBFF, #00FF95);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 20px;  
+    padding: 5px 10px;
+    box-shadow: 0px 0px 20px 0px rgba(172, 225, 223, 0.4);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+  }
+  .font_nav{
+    font-size: 13px;
+  }
+  .font_logo_nav{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+      /* navbar */
+  .img_nav_logo {
+    width: 72px;
+    height: 72px;
+  }
+  .button_nav {
+    background: linear-gradient(to bottom right, #13DBFF, #00FF95);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 20px;  
+    padding: 5px 10px;
+    box-shadow: 0px 0px 20px 0px rgba(172, 225, 223, 0.4);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+  }
+  .font_nav{
+    font-size: 13px;
+  }
+  .font_logo_nav{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+      /* navbar */
+  .img_nav_logo {
+    width: 72px;
+    height: 72px;
+  }
+  .button_nav {
+    background: linear-gradient(to bottom right, #13DBFF, #00FF95);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;  
+    padding: 5px 10px;
+    box-shadow: 0px 0px 20px 0px rgba(172, 225, 223, 0.4);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+  }
+  .font_nav{
+    font-size: 15px;
+  }
+  .font_logo_nav{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+      /* navbar */
+  .img_nav_logo {
+    width: 72px;
+    height: 72px;
+  }
+
+  .button_nav {
+    background: linear-gradient(to bottom right, #13DBFF, #00FF95);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;  
+    padding: 5px 20px;
+    box-shadow: 0px 0px 20px 0px rgba(172, 225, 223, 0.4);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+  }
+  .font_nav{
+    font-size: 18px;
+  }
+  .font_logo_nav{
+    font-size: 20px;
+  }
+}

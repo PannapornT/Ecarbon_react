@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap");
+
+* {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #121138;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  .menu li {
+    list-style: none;
+    cursor: pointer;
+  }
+  .nav-con a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .display_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .fotter-color {
+    background: #121138;
+  }
+  .nav-con {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .nav-con a {
+    text-decoration: none;
+    color: #fff;
+  }
