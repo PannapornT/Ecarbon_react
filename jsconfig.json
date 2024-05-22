@@ -5,6 +5,7 @@
       "@style/*" : ["./style/*"],
       "@nav_pic/*" : ["./src/app/nav_pic/*"],
       "@footer_pic/*" : ["./src/app/footer_pic/*"],
+      "@main_pic/*" : ["./src/app/main_pic/* "],
       // "@asset/*": ["./src/app/assets/*"],
     }
   }
