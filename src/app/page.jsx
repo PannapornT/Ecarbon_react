@@ -7,7 +7,7 @@ import feature3 from "@main_pic/newfeature3.svg";
 import hero from "@main_pic/hero.svg";
 import Ai_mobile from "@main_pic/Ai_mobile.svg";
 import ferti_mobile from "@main_pic/ferti_mobile.svg";
-import Mitr_phol from "@main_pic/mitr-phol.svg";
+import Mitr_phol from "@main_pic/Mitr-phol.svg";
 import people1 from "@main_pic/people1.svg";
 import people2 from "@main_pic/people2.svg";
 import people3 from "@main_pic/people3.svg";
