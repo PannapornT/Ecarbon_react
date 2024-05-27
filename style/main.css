@@ -1,4 +1,6 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap");
+
 
 * {
   font-family: "Noto Sans Thai", sans-serif;
@@ -40,7 +42,8 @@
 }
 
 .bg-image-hero {
-  background-image: url("pic_index/Group.svg");
+
+  background-image: url(../src/app/main_pic/Group.svg);
   background-size: cover;
 }
 
@@ -59,17 +62,17 @@
 }
 
 .map-bg {
-  background-image: url("pic_index/bgvector.svg");
+  background-image: url(../src/app/main_pic/bgvector.svg);
   background-size: cover;
 }
 
 .bg-feedback {
-  background-image: url("pic_index/bg-feedback.svg");
+  background-image: url(../src/app/main_pic/bg-feedback.svg);
   background-size: cover;
 }
 
 .bg-feedback-light {
-  background-image: url("pic_index/bg-feedback-green.svg");
+  background-image: url(../src/app/main_pic/bg-feedback-green.svg);
   background-size: cover;
   /* position: relative; */
 }
@@ -79,7 +82,7 @@
   background-position: relative;
 }
 
-.bg-feature-bg2 {
+/* .bg-feature-bg2 {
   background-image: url("pic_index/feature2.svg");
   background-size: cover;
 }
@@ -87,7 +90,7 @@
 .bg-feature-bg3 {
   background-image: url("pic_index/feature.png");
   background-size: cover;
-}
+} */
 
 .display {
   display: flex;
@@ -544,12 +547,12 @@
   }
 
   .bg_feedback_mobile {
-    background-image: url("pic_index/bg_feedback.svg");
+    background-image: url(../src/app/main_pic/bg-feedback.svg);
     background-size: cover;
   }
 
   .bg_feedback_green_mobile {
-    background-image: url("pic_index/bg_feedback_green.svg");
+    background-image: url(../src/app/main_pic/bg-feedback-green.svg);
     background-size: cover;
   }
 

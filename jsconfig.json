@@ -5,7 +5,12 @@
       "@style/*" : ["./style/*"],
       "@nav_pic/*" : ["./src/app/nav_pic/*"],
       "@footer_pic/*" : ["./src/app/footer_pic/*"],
-      "@main_pic/*" : ["./src/app/main_pic/* "],
+      "@main_pic/*" : ["./src/app/main_pic/*"],
+      "@news_pic/*" : ["./src/app/news_pic/*"],
+      "@aboutus_pic/*" : ["./src/app/aboutus_pic/*"],
+      "@product_pic/*" : ["./src/app/product_pic/*"],
+      "@news1_pic/*" : ["./src/app/news1_pic/*"],
+      "@news2_pic/*" : ["./src/app/news2_pic/*"],
       // "@asset/*": ["./src/app/assets/*"],
     }
   }
