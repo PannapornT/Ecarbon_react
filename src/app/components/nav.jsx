@@ -17,7 +17,7 @@ function Nav() {
     <div>
       <nav className="bg-primary-color nav-con display_old">
         <div className="text-light font-bold font_logo_nav">
-          <a href="./..">
+          <a href="/">
             <div className="flex items-center">
               <Image src={Icon} width={72} height={72} alt="icon" />
               eCARBON
